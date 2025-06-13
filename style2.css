@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('images/imagemwindowsdesbotada.png');
+    background-size: cover;          /* cobre toda a tela */
+    background-position: center;     /* centraliza a imagem */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  
+  .hora_e_data {
+    text-align: center;
+    padding: 40px 60px;
+  }
+
+  .relogio {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+  }
+
+  .data {
+    font-size: 12px;
+    color: white;
+  }
+
+  .posicao-icons {
+    position: fixed;       /* Fixa o elemento na tela, não se move ao rolar a página */
+    bottom: 16px;          /* 16px da parte inferior*/
+    right: 20px;           /* 20px da borda direita*/
+    display: flex;         /* alinhar os ícones em linha */
+    gap: 10px;             /* Espaço de 10px entre os ícones */
+    align-items: center;   
+  }
+  
+  
+  .icon {
+    width: 32px;
+  }
+
+  .icon_wifi {
+    width: 50px;
+  }
+
+  .icon,
+  .icon_wifi {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 6px;                 /* Espaço interno para o fundo aparecer */
+    border-radius: 6px;           /* Cantos levemente arredondados */
+  }
+  
+  /* Efeito ao passar o mouse */
+  .icon:hover,
+  .icon_wifi:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* fundo branco transparente */
+  }
+  
